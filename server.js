@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const HOST = '0.0.0.0';
+const HOST = 'localhost';
 
 app.use(cors());
 app.use(express.json());
